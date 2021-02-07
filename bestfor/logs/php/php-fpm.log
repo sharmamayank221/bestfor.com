@@ -1,0 +1,46 @@
+[05-Feb-2021 09:17:15] NOTICE: fpm is running, pid 6141
+[05-Feb-2021 09:17:15] NOTICE: ready to handle connections
+[05-Feb-2021 09:35:44] WARNING: [pool www] child 6148 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[05-Feb-2021 09:35:44] WARNING: [pool www] child 6148 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[05-Feb-2021 09:37:18] WARNING: [pool www] child 6148 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[05-Feb-2021 09:37:18] WARNING: [pool www] child 6148 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[05-Feb-2021 09:43:59] NOTICE: Terminating ...
+[05-Feb-2021 09:43:59] NOTICE: Terminating ...
+[05-Feb-2021 09:43:59] NOTICE: exiting, bye-bye!
+[05-Feb-2021 09:44:03] NOTICE: fpm is running, pid 7350
+[05-Feb-2021 09:44:03] NOTICE: ready to handle connections
+[05-Feb-2021 09:47:23] NOTICE: Terminating ...
+[05-Feb-2021 09:47:23] NOTICE: Terminating ...
+[05-Feb-2021 09:47:23] NOTICE: exiting, bye-bye!
+[05-Feb-2021 09:47:37] NOTICE: fpm is running, pid 7502
+[05-Feb-2021 09:47:37] NOTICE: ready to handle connections
+[05-Feb-2021 09:51:21] NOTICE: Terminating ...
+[05-Feb-2021 09:51:21] NOTICE: Terminating ...
+[05-Feb-2021 09:51:21] NOTICE: exiting, bye-bye!
+[05-Feb-2021 09:53:46] NOTICE: fpm is running, pid 630
+[05-Feb-2021 09:53:46] NOTICE: ready to handle connections
+[05-Feb-2021 10:30:29] NOTICE: Terminating ...
+[05-Feb-2021 10:30:29] NOTICE: Terminating ...
+[05-Feb-2021 10:30:29] NOTICE: exiting, bye-bye!
+[05-Feb-2021 12:32:27] NOTICE: fpm is running, pid 1824
+[05-Feb-2021 12:32:27] NOTICE: ready to handle connections
+[05-Feb-2021 12:36:27] NOTICE: Terminating ...
+[05-Feb-2021 12:36:27] NOTICE: Terminating ...
+[05-Feb-2021 12:36:27] NOTICE: exiting, bye-bye!
+[05-Feb-2021 19:21:56] NOTICE: fpm is running, pid 1568
+[05-Feb-2021 19:21:56] NOTICE: ready to handle connections
+[05-Feb-2021 21:46:49] WARNING: [pool www] child 1576 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[05-Feb-2021 21:46:49] WARNING: [pool www] child 1576 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[05-Feb-2021 21:47:28] WARNING: [pool www] child 1575 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[05-Feb-2021 21:47:28] WARNING: [pool www] child 1575 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[06-Feb-2021 11:09:36] WARNING: [pool www] child 1576 said into stderr: "libpng warning: iCCP: known incorrect sRGB profile"
+[06-Feb-2021 11:09:36] WARNING: [pool www] child 1576 said into stderr: "libpng warning: iCCP: cHRM chunk does not match sRGB"
+[07-Feb-2021 09:24:04] NOTICE: fpm is running, pid 729
+[07-Feb-2021 09:24:04] NOTICE: ready to handle connections
+[07-Feb-2021 10:24:16] NOTICE: Terminating ...
+[07-Feb-2021 10:24:16] NOTICE: Terminating ...
+[07-Feb-2021 10:24:16] NOTICE: exiting, bye-bye!
+[07-Feb-2021 10:24:21] NOTICE: fpm is running, pid 3720
+[07-Feb-2021 10:24:21] NOTICE: ready to handle connections
+[07-Feb-2021 13:36:01] NOTICE: fpm is running, pid 642
+[07-Feb-2021 13:36:01] NOTICE: ready to handle connections

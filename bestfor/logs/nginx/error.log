@@ -1,0 +1,1 @@
+2021/02/07 13:44:03 [alert] 645#0: *78 pread() read only 0 of 32768 from "/Users/mayank/Local Sites/bestfor/app/public/wp-content/themes/bestfor/css/theme.min.css" while sending response to client, client: 127.0.0.1, server: , request: "GET /wp-content/themes/bestfor/css/theme.min.css?ver=0.9.4.1612684683 HTTP/1.1", host: "localhost:10028", referrer: "http://localhost:10028/"

@@ -1,0 +1,463 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+// header css
+#wrapper-navbar {
+	height: 160px;
+	background-color: $primary;
+	box-shadow: 0 0 35px rgba(0, 2, 35, 0.2);
+
+	#main-nav {
+		height: 100%;
+		width: 1170px;
+		margin: 0 auto;
+		.header-logo {
+			height: 110px;
+			width: 72px;
+			a {
+				width: 100%;
+				height: auto;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+#navbarNavDropdown #main-menu .menu-item .nav-link {
+	font-size: 18px;
+	color: black;
+	padding: 30px 10px;
+	white-space: nowrap;
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+	position: relative;
+
+	&:hover {
+	
+		color: #ff0000;
+	}
+	&::before{
+		content: "";
+		height: 3px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		background: #020620;
+		transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+		transform:scaleX(0);
+		transform-origin: left;
+	}
+	
+}
+
+#navbarNavDropdown #main-menu .menu-item .nav-link:hover::before{
+	transform: width 20px;
+	background:  #ff0000;
+	transform:scaleX(1);
+}
+
+// homepage css
+
+.homepage-wrapper-one {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-image: url(../src/images/pattern1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homepage-cards-container {
+	width: 70%;
+	height: 500px;
+	margin: auto;
+}
+
+.homecards {
+	background-color: #ffffff;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	height:356px;
+	width: 371px;
+	margin-right: 30px;
+	
+
+	.col-lg-4 {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.find-out-more-btn {
+		position: relative;
+		padding: 0 30px;
+		cursor: pointer;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+		background:#ffffff;
+		z-index: 1;
+
+		&::before{
+			content: "";
+			height: 100%;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			background: #ffffff;
+			transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+			transform:scaleX(0);
+			transform-origin: left;
+			z-index: -1;
+		}
+
+		a {
+			color: #182158;
+			text-decoration: none;
+			flex: 1;
+			transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+			&:hover{
+				color: #ffffff;
+			}
+		}
+       img{
+		 opacity: 0.3;
+		
+	   }
+	
+	
+	}
+	
+	.find-out-more-btn:hover::before{
+		color: #ffffff;
+		background:  #ff0000;
+		transform:scaleX(1);
+	}
+.homecard-top-part{
+	padding: 30px;
+	.homepage-cards-links {
+		color: #ff0000;
+		padding: 30px 30px 0;
+		text-decoration: none;
+		font-weight: 700;
+		width: 100%;
+		height: 100%;
+		font-family: "Roboto Condensed";
+	
+	}
+}
+
+	
+	
+	
+}
+
+.homepage-wrapper-two {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #020620 url(../src/images/pattern2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 90px;
+
+	.homepage-video-container {
+		
+		width: 1170px;
+		height: 591px;
+		margin: auto;
+		.homepage-video-h1 {
+			font-family: 'Roboto Condensed', sans-serif ;
+			color: #8d8ea3;
+			& strong {
+				color: #ffffff;
+			}
+		}
+		p {
+			color: #8d8ea3;
+		}
+	}
+}
+
+.homepage-wrapper-three {
+	width: 100%;
+	height: 100%;
+	.our-products-text {
+		box-shadow: 0 3px 40px rgba(2, 6, 2, 0.1);
+
+		.homepage-heading {
+			text-align: center;
+			padding: 50px 0;
+			font-weight: 700;
+			font-style: italic;
+			font-family: 'Roboto Condensed', sans-serif ;
+			color: #ff0000;
+			text-transform: none;
+			font-size: 2.25rem;
+			line-height: 1.2em;
+		
+		}
+	}
+}
+
+.homepage-wrapper-four {
+	width: 70%;
+	height: 100%;
+	margin: auto;
+	margin-bottom: 35px;
+
+	// bg colors for hover
+	.orange {
+		background: #ff6600;
+	}
+	.magenta {
+		background: #ef057e;
+	}
+
+	.blue {
+		background: #009fc5;
+	}
+
+	.green {
+		background: #008737;
+	}
+
+	.purple {
+		background: #c53095;
+	}
+
+	.darkblue {
+		background: #14007b;
+	}
+
+	.light-green {
+		background: #99cf16;
+	}
+
+	.grey {
+		background: #4b4a4b;
+	}
+
+	.single-product {
+		background-color: transparent;
+		width: 100%;
+		height: 100%;
+		margin-bottom: 30px;
+		perspective: 1000px;
+		margin-right: 0;
+
+		.single-product-inner {
+			position: relative;
+			width: 370px;
+			height: 257px;
+			text-align: center;
+			transition: transform 0.8s;
+			transform-style: preserve-3d;
+			.single-product-f,
+			.single-product-b {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				-webkit-backface-visibility: hidden; /* Safari */
+				backface-visibility: hidden;
+			}
+
+			.single-product-f img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		&:hover .single-product-inner {
+			transform: rotateY(180deg);
+		}
+
+		.single-product-b {
+			color: white;
+			transform: rotateY(180deg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+// best franchise css
+.best-franchise-home {
+	width: 100%;
+	height: 100%;
+	.best-franchise-wrapper {
+		width: 70%;
+		margin: auto;
+	}
+
+	h2 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 32px;
+		color: #d6002a;
+		text-align: center;
+		margin-bottom: 40px;
+		font-style: italic;
+		
+	}
+	.box-wrapper {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		
+        flex-direction: column;
+		box-shadow: 0 0 35px rgba(2, 6, 32, 0.15);
+		
+		.shopping-bag-box {
+			width: 100%;
+			padding: 20px 30px ;
+			background-color: #ff0000;
+			text-align: center;
+			i {
+				
+				font-size: 52px !important;
+				color: #ffffff;
+			}
+			h6 {
+				text-align: center;
+			}
+		}
+		.box-detail {
+			background: #ffffff;
+			padding: 20px 30px;
+			a {
+				color: #00ae14;
+			}
+			&:hover {
+				background-color: #ff0000;
+			}
+		}
+		&:hover {
+			background-color: #ff0000;
+		}
+	}
+}
+
+
+
+// footer css
+
+.footer-middle{
+	background: #273272;
+	height: 326px;
+	width: 100%;
+	
+	.container-fluid{
+		width: 70%;
+		margin: auto;
+		padding: 20px 0 50px 0;
+	}
+}
+.footer-bottom-copyright{
+	background: #ffffff;
+	height: 156.83px;
+	width: 100%;
+	
+	.container-fluid{
+		width: 70%;
+		margin: auto;
+		padding: 30px;
+	}
+	.social-icons{
+		width: 100%;
+		height: 100%;
+		.social-icons-footer {
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			color: #ffffff;
+			font-size: 14px;
+
+			.fa-facebook-f{
+				background: #3b5998;
+			}
+			.fa-instagram{
+				background: #d84b60;
+			}
+			.fa-twitter{
+				background: #1da1f2;
+			}
+			.fa-youtube-play{
+				background: #f36251;
+			}
+			.fa-pinterest-p{
+				background: #cb2027;
+			}
+			.fa-tumblr{
+				background: #34586f;
+			}
+		}
+		
+		
+	}
+}
+.footer-top{
+	background: #273272;
+	position: relative;
+	height: 156.83px;
+	width: 100%;
+	
+	.container-fluid{
+		width: 70%;
+		margin: auto;
+		padding: 30px;
+
+		.start-your-business,.join-our-team{
+			position: absolute;
+			top: 0;
+			background: #ffffff;
+			margin-top: -70px;
+			border-top:2px solid #000000;
+			box-shadow: 0 0 35px rgba(2, 6, 32, 0.15);
+			.footer-info-box{
+				padding: 30px;
+				display: flex;
+				align-items: flex-start;
+              img{
+				  margin-right: 30px;
+				 
+			  }
+			  img:hover{
+				color: #ff0000;
+			  }
+				a{
+					font-family: 'Roboto Condensed';
+                     font-weight: 700;
+					font-style: italic;
+					text-decoration: none;
+                     color: #ff0000;
+					text-transform: none;
+					font-size: 1.25rem;
+					line-height: 1.25em;
+				}
+			}
+		}
+	}
+}
