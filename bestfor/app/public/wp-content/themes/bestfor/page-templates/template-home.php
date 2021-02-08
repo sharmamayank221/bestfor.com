@@ -18,7 +18,7 @@ if ( is_front_page() ) {
 }
 ?>
 
-<div class="wrapper" id="full-width-page-wrapper">
+<div class="wrapper homepage-wrapper" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
     <?php
@@ -29,7 +29,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
 
    <div class="container-fluid">
 		<div class="row homepage-cards-container ">
-           <div class="col-lg-4-fluid homecards">
+           <div class="col-lg-3-fluid homecards">
                <div class="homecard-top-part"> 
                     <a href="#" class="homepage-cards-links">THE BEST PRODUCTS</a>
                <p>Huge variety of high quality products!</p>
@@ -38,12 +38,12 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img1.jpg'?>" alt="">
                <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE</a> 
-               <img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px">
+               <a href="#">FIND OUT MORE <img src="<?php echo get_template_directory_uri() . 
+               '/src/images/log-in.svg'?>" alt="login" width="37.5px"></a> 
+              
                </div>
      </div>
-           <div class="col-lg-4-fluid homecards">
+           <div class="col-lg-3-fluid homecards">
            <div class="homecard-top-part"> 
                <a href="#" class="homepage-cards-links">THE BEST SERVICE</a>
                <p>Specialized staff with years of sales experience is available 24 hours!</p>
@@ -51,12 +51,12 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img2.jpg'?>" alt="">
                <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE</a> 
-               <img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px">
+               <a href="#">FIND OUT MORE<img src="<?php echo get_template_directory_uri() . 
+               '/src/images/log-in.svg'?>" alt="login" width="37.5px"></a> 
+               
                </div>
             </div>
-            <div class="col-lg-4-fluid homecards">
+            <div class="col-lg-3-fluid homecards">
             <div class="homecard-top-part"> 
                <a href="#" class="homepage-cards-links">THE BEST INVESTMENT</a>
                
@@ -65,9 +65,9 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img3.jpg'?>" alt="">
               <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE</a> 
-               <img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px" color="">
+               <a href="#">FIND OUT MORE<img src="<?php echo get_template_directory_uri() . 
+               '/src/images/log-in.svg'?>" alt="login" width="37.5px" color=""></a> 
+               
                </div>
             </div>
            
@@ -78,7 +78,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
          <div class="homepage-wrapper-two">
            <div class="container-fluid">
               <div class="row homepage-video-container ">
-                  <div class="col-lg-6">
+                  <div class="col-xl-6">
                       <h1 class="homepage-video-h1">
                       Our Mission is to Become <strong>The Best</strong> Franchise Company in <strong>The World.</strong>
                       </h1>
@@ -90,11 +90,9 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       </p>
                       <a href="#" class="learn-more-homepage">LEARN ABOUT US</a>
                   </div>
-                  <div class="col-lg-6">
-                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0BHLQOduMQ4" 
-                    frameborder="0" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; 
-                    picture-in-picture" allowfullscreen></iframe> -->
+                  <div class="col-xl-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/0BHLQOduMQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
 </div>
 </div>
@@ -269,9 +267,9 @@ echo do_shortcode('[smartslider3 slider="2"]');
         </div>
         <div class="col-lg-4">
         <div class="box-wrapper">
-        <div class="shopping-bag-box">
+        <div class="shopping-bag-box2">
         <i class="icon-earphones-alt"></i>
-             <h6>THE BEST PRODUCTS 100%</h6>
+             <h6>THE BEST SUPPORT</h6>
             
          </div>
          <div class="box-detail">
@@ -282,9 +280,9 @@ echo do_shortcode('[smartslider3 slider="2"]');
         </div>
         <div class="col-lg-4">
         <div class="box-wrapper">
-        <div class="shopping-bag-box">
+        <div class="shopping-bag-box3">
         <i class="icon-check"></i>
-             <h6>THE BEST PRODUCTS 100%</h6>
+             <h6>THE BEST INVESTMENT</h6>
             
          </div>
          <div class="box-detail">
@@ -298,6 +296,13 @@ echo do_shortcode('[smartslider3 slider="2"]');
 </div>
 </div>
 
+</section>
+
+<section class="best-instagram-feed">
+    <h2 class="instagram-section-title">
+
+Follow Us on Instagram #bestforgr
+    </h2>
 </section>
 
                   </div>

@@ -1,0 +1,104 @@
+*** iPages Flipbook for WordPress Changelog ***
+
+= 1.3.9 =
+ * Fix: open the new url for iOS & Android directly
+ * Fix: annotations layout from a PDF document
+  
+= 1.3.8 =
+ * Fix: the odd pages (the right pages) are shifted to the left
+  
+= 1.3.7 =
+ * New: create pages from the set of selected images
+ * New: shortcode attribute 'width', 'height'
+
+= 1.3.6 =
+ * Fix: refresh page data after the fullscreen toggle event
+
+= 1.3.5 =
+ * Fix: super admin can't see menu items
+ * New: DB field 'editor'
+
+= 1.3.4 =
+ * New: item slug (URL valid name)
+ * New: options for preview & iframe embed page
+ * Mod: file system operations
+
+= 1.3.3 =
+ * New: edit roles with access to the plugin
+ * Fix: loader is called only once on a page
+ * Mod: user can view & edit only their items
+
+= 1.3.2 =
+ * Fix: FontAwesome i2svg breaks the admin frontend
+ * Fix: bookmarks from a pdf document
+
+= 1.3.1 =
+ * Mod: items pagination view
+
+= 1.3.0 =
+ * New: support bookmarks from a pdf document
+ * New: support hyperlinks from a pdf document
+ * Mod: outline & thumbnails ui elements
+
+= 1.2.5 =
+ * New: support pdf documents in a brochure format
+ * New: fullscreen emulation for iOS
+ * New: config parameter - pageSizeAuto
+ * New: config parameter - pdfAutoLoad & pdfCoverImageUrl
+
+= 1.2.4 =
+ * Fix: undefined variable timestamp
+
+= 1.2.3 =
+ * Fix: the quality of the text after pdf zoom
+
+= 1.2.2 =
+ * New: preview & iframe embed feature
+
+= 1.2.1 =
+ * New: edit permissions for roles: administrator, editor, author, contributor
+ * Fix: manual container width & height parameters did not apply
+
+= 1.2.0 =
+ * Mod: new interface
+ * New: any layer as a link
+
+= 1.1.5 =
+ * Mod: added mouseDragNavigation & mousePageClickNavigation parameters
+ * Mod: updated the jQuery plugin
+
+= 1.1.4 =
+ * Fix: the book stays small after fullscreen toggle
+ * Mod: page numbers format for the two page mode: 1/4 ; 2-3/4 ; 4/4
+ * Mod: public function - setBookEngine (change the book engine on the fly)
+ * Mod: unique book engine for portrait & landscape view
+ * Mod: updated the jQuery plugin
+
+= 1.1.3 =
+ * Fix: keyboard navigation
+ * Mod: pinch zoom (2 fingers touch on the screen at the same time)
+ * Mod: keyboard zoom (plus and minus keys)
+ * Mod: zoom default after double click
+ * Mod: updated the jQuery plugin
+
+= 1.1.2 =
+ * Fix: pdf rendering in IE11
+
+= 1.1.1 =
+ * Fix: some CSS rules
+
+= 1.1.0 =
+ * Fix: Responsive functionality
+ * Mod: added autoWidth, autoHeight, containerWidth & containerHeight parameters
+ * Mod: updated the jQuery plugin
+
+= 1.0.2 =
+ * Fix: AutoFit functionality
+ * Mod: updated the jQuery plugin
+
+= 1.0.1 =
+ * Fix: Updated default parameters
+ * Mod: updated the jQuery plugin
+
+= 1.0.0 =
+ * Initial release

@@ -124,7 +124,14 @@ echo do_shortcode('[wpforms id="89"]');
 			<a href="#" class="social-icons-footer"><i class="fa fa-twitter"></i></a>	
 			<a href="#" class="social-icons-footer"><i class="fa fa-youtube-play"></i></a>	
 			<a href="#" class="social-icons-footer"><i class="fa fa-pinterest-p"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-tumblr"></i></a>	
+			<a href="#" class="social-icons-footer"><i class="fa fa-tumblr"></i></a>
+			<a class="go-to-top"  >
+
+				
+					<span>go to top</span>
+					<i class="fa fa-level-up"></i>
+				
+			</a>	
 			</div>
 		</div>
 
