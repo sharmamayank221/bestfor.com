@@ -18,14 +18,16 @@ defined( 'ABSPATH' ) || exit;
 
 
 				<footer class="site-footer" id="colophon">
+				
     <div class="footer-top">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6">
                   <div class="start-your-business">
 					  <div class="footer-info-box">
-					  <img src="<?php echo get_template_directory_uri() .
-			  '/src/images/ios-chatboxes.svg' ?>" alt="chatbox" width="52px">
+					  <!-- <img src="<?php echo get_template_directory_uri() .
+			  '/src/images/ios-chatboxes.svg' ?>" alt="chatbox" width="52px"> -->
+			  <i class="ion-ios-chatboxes"></i>
 			  <div class="info-content">
 				  <a href="">Are you ready to start your bussiness?</a>
 				  <div class="info-detail">
@@ -39,8 +41,9 @@ defined( 'ABSPATH' ) || exit;
 				<div class="col-lg-6">
                  <div class="join-our-team">
                     <div class="footer-info-box">
-					<img src="<?php echo get_template_directory_uri() .
-			  '/src/images/person-stalker.svg' ?>" alt="chatbox" width="52px">
+					<!-- <img src="<?php echo get_template_directory_uri() .
+			  '/src/images/person-stalker.svg' ?>" alt="chatbox" width="52px"> -->
+			   <i class="ion-person-stalker"></i>
 			  <div class="info-content">
 				  <a href="">Join our team. Are you ready to change the game?</a>
 				  <div class="info-detail">
@@ -84,10 +87,10 @@ Send Us an e-mail to <a href="mailto:info@bestfor.com7">info@bestfor.com</a>
 		   Information
 			   </h3>
 			   <div class="policy-news">
-				   <a href="">Privacy Policy & Cookies</a>
-				   <a href="">news</a>
+				   <a href="/privacy-policy">Privacy Policy & Cookies</a>
+				   <a href="/news-blog">news</a>
 			   </div>
-			   <a href="">Contact Us</a>
+			   <a href="/contact-us">Contact Us</a>
 		   </div>
 	   </div>
 	   <div class="col-lg-4">
@@ -100,7 +103,7 @@ Send Us an e-mail to <a href="mailto:info@bestfor.com7">info@bestfor.com</a>
 echo do_shortcode('[wpforms id="89"]');
 ?>   
 			   </div>
-			  <p>Have a question? Visit our <a href="">Contact Us</a> page for more options.</p> 
+			  <p>Have a question? Visit our <a href="/contact-us">Contact Us</a> page for more options.</p> 
 		   </div>
 	   </div>
 		</div>
@@ -119,18 +122,15 @@ echo do_shortcode('[wpforms id="89"]');
 		</div>
 		<div class="col-lg-6">
 			<div class="social-icons">
-			<a href="#" class="social-icons-footer"><i class="fa fa-facebook-f"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-instagram"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-twitter"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-youtube-play"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-pinterest-p"></i></a>	
-			<a href="#" class="social-icons-footer"><i class="fa fa-tumblr"></i></a>
-			<a class="go-to-top"  >
-
-				
+			<a href="https://www.facebook.com/BestForGr/" class="social-icons-footer"><i class="fa fa-facebook-f"></i></a>	
+			<a href="https://www.instagram.com/bestforgr/" class="social-icons-footer"><i class="fa fa-instagram"></i></a>	
+			<a href="https://twitter.com/bestforcompany" class="social-icons-footer"><i class="fa fa-twitter"></i></a>	
+			<a href="https://www.youtube.com/channel/UC2WgQ3PfRKVsx1fKP1LWxhQ" class="social-icons-footer"><i class="fa fa-youtube-play"></i></a>	
+			<a href="https://gr.pinterest.com/bestforgr/" class="social-icons-footer"><i class="fa fa-pinterest-p"></i></a>	
+			<a href="https://www.tiktok.com/@bestforgr?" class="social-icons-footer"><i class="fa fa-tumblr"></i></a>
+			<a href="#page" class="go-to-top">
 					<span>go to top</span>
 					<i class="fa fa-level-up"></i>
-				
 			</a>	
 			</div>
 		</div>

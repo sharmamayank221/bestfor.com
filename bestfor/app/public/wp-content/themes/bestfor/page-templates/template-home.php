@@ -38,8 +38,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img1.jpg'?>" alt="">
                <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE <img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px"></a> 
+               <a href="#">FIND OUT MORE<i class="ion-log-in"></i></a> 
               
                </div>
      </div>
@@ -51,8 +50,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img2.jpg'?>" alt="">
                <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE<img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px"></a> 
+               <a href="#">FIND OUT MORE<i class="ion-log-in"></i></a> 
                
                </div>
             </div>
@@ -65,8 +63,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                <img src="<?php echo get_template_directory_uri() . 
                '/src/images/homepage-img3.jpg'?>" alt="">
               <div class="find-out-more-btn">
-               <a href="#">FIND OUT MORE<img src="<?php echo get_template_directory_uri() . 
-               '/src/images/log-in.svg'?>" alt="login" width="37.5px" color=""></a> 
+              <a href="#">FIND OUT MORE<i class="ion-log-in"></i></a> 
                
                </div>
             </div>
@@ -78,7 +75,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
          <div class="homepage-wrapper-two">
            <div class="container-fluid">
               <div class="row homepage-video-container ">
-                  <div class="col-xl-6">
+                  <div class="col-xl-6 home-vid-desc">
                       <h1 class="homepage-video-h1">
                       Our Mission is to Become <strong>The Best</strong> Franchise Company in <strong>The World.</strong>
                       </h1>
@@ -90,7 +87,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       </p>
                       <a href="#" class="learn-more-homepage">LEARN ABOUT US</a>
                   </div>
-                  <div class="col-xl-6">
+                  <div class="col-xl-6 yt-player">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/0BHLQOduMQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                     encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
@@ -113,7 +110,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                          <img src="<?php echo get_template_directory_uri() . '/src/images/product-child.png' ?>" alt="">
                          </div>
                     <div class="single-product-b orange">
-                         <a href="https://www.bestforshop.com">Best For.. Child</a>
+                         <a href="https://bestforeshop.com/">Best For.. Child</a>
                          </div>
                      </div>
                   </div>
@@ -127,7 +124,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                          <img src="<?php echo get_template_directory_uri() . '/src/images/best-women.png' ?>" alt="">
                      </div>
                      <div class="single-product-b magenta">
-                         <a href="https://www.bestforshop.com">Best For.. Women</a>
+                         <a href="https://bestforeshop.com/">Best For.. Women</a>
                      </div>
                  </div>
              </div>
@@ -142,7 +139,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                          <img src="<?php echo get_template_directory_uri() . '/src/images/best-men.png' ?>" alt="">
                       </div>
                      <div class="single-product-b blue">
-                         <a href="https://www.bestforshop.com">Best For.. Men</a>
+                         <a href="https://bestforeshop.com/">Best For.. Men</a>
                      </div>
                  </div>
              </div>
@@ -160,7 +157,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-home.png' ?>" alt="">
                       </div>
                  <div class="single-product-b green">
-                      <a href="https://www.bestforshop.com">Best For.. Home</a>
+                      <a href="https://bestforeshop.com/">Best For.. Home</a>
                       </div>
                   </div>
                </div>
@@ -174,7 +171,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-accessories.png' ?>" alt="">
                   </div>
                   <div class="single-product-b purple">
-                      <a href="https://www.bestforshop.com">Best For.. Accessories</a>
+                      <a href="https://bestforeshop.com/">Best For.. Accessories</a>
                   </div>
               </div>
           </div>
@@ -189,7 +186,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-office.png' ?>" alt="">
                    </div>
                   <div class="single-product-b darkblue">
-                      <a href="https://www.bestforshop.com">Best For.. Office</a>
+                      <a href="https://bestforeshop.com/">Best For.. Office</a>
                   </div>
               </div>
           </div>
@@ -208,7 +205,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-hobbies.png' ?>" alt="">
                       </div>
                  <div class="single-product-b light-green">
-                      <a href="https://www.bestforshop.com">Best For.. Hobbies</a>
+                      <a href="https://bestforeshop.com/">Best For.. Hobbies</a>
                       </div>
                   </div>
                </div>
@@ -222,7 +219,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-digital.png' ?>" alt="">
                   </div>
                   <div class="single-product-b grey">
-                      <a href="https://www.bestforshop.com">Best For.. Digital</a>
+                      <a href="https://bestforeshop.com/">Best For.. Digital</a>
                   </div>
               </div>
           </div>
@@ -237,7 +234,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                       <img src="<?php echo get_template_directory_uri() . '/src/images/best-seasonal.png' ?>" alt="">
                    </div>
                   <div class="single-product-b orange">
-                      <a href="https://www.bestforshop.com">Best For.. seasonal</a>
+                      <a href="https://bestforeshop.com/">Best For.. seasonal</a>
                   </div>
               </div>
           </div>
@@ -253,39 +250,39 @@ echo do_shortcode('[smartslider3 slider="2"]');
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-4">
-        <div class="box-wrapper">
+        <div class="box-wrapper1">
         <div class="shopping-bag-box">
         <i class="icon-bag"></i>
              <h6>THE BEST PRODUCTS 100%</h6>
             
          </div>
-         <div class="box-detail">
+         <div class="box-detail1">
                  <p>All our products are from Europe!</p>
-                 <img src="<?php echo get_template_directory_uri() . '/src/images/arrow-thin-right.svg' ?>" alt="arrow-right" width="11.69px">      <a href="https://www.bestforshop.com">Learn More</a>
+                 <i class="arrow-thin-right"></i>  <a href="https://www.bestforshop.com">Learn More</a> 
              </div>
         </div>
         </div>
         <div class="col-lg-4">
-        <div class="box-wrapper">
+        <div class="box-wrapper2">
         <div class="shopping-bag-box2">
         <i class="icon-earphones-alt"></i>
              <h6>THE BEST SUPPORT</h6>
             
          </div>
-         <div class="box-detail">
+         <div class="box-detail2">
                  <p>All our products are from Europe!</p>
                  <img src="<?php echo get_template_directory_uri() . '/src/images/arrow-thin-right.svg' ?>" alt="arrow-right" width="11.69px">      <a href="https://www.bestforshop.com">Learn More</a>
              </div>
         </div>
         </div>
         <div class="col-lg-4">
-        <div class="box-wrapper">
+        <div class="box-wrapper3">
         <div class="shopping-bag-box3">
         <i class="icon-check"></i>
              <h6>THE BEST INVESTMENT</h6>
             
          </div>
-         <div class="box-detail">
+         <div class="box-detail3">
                  <p>All our products are from Europe!</p>
                  <img src="<?php echo get_template_directory_uri() . '/src/images/arrow-thin-right.svg' ?>" alt="arrow-right" width="11.69px">        <a href="https://www.bestforshop.com">Learn More</a>
              </div>
@@ -298,6 +295,58 @@ echo do_shortcode('[smartslider3 slider="2"]');
 
 </section>
 
+<section class="our-news-on-home">
+
+<div class="homepage-our-news">
+  <h2>Our News...</h2>
+</div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+     <?php 
+   // the query
+   $the_query = new WP_Query( array(
+     'category_name' => 'blog',
+      'posts_per_page' => 3,
+      'order' => 'ASC'
+   )); 
+?> 
+
+<?php if ( $the_query->have_posts() ) : ?>
+  <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+  <div class="col-xl-4">
+                    
+                   <div class="image-container">
+                   <!-- <a href= "<?php the_permalink()?>" > -->
+                    
+                    <?php echo get_the_post_thumbnail();?>
+                          <div class="image-info-holder">
+                          <a href= "<?php the_permalink()?>" >  <?php the_title( '<h3>', '</h3>' ); ?> </a>
+                          <a href="<?php echo esc_url( get_page_link( 17 ) );?>" clas="home-news-btn">NEWS</a>
+                          
+                       
+                          </div>
+                       
+                   </div> 
+                 
+
+                        
+                      
+
+                    </div>
+
+  <?php endwhile; ?>
+  <?php wp_reset_postdata(); ?>
+
+<?php else : ?>
+  <p><?php __('No News'); ?></p>
+<?php endif; ?>
+    </div>
+  </div>
+<a href="<?php echo esc_url( get_page_link( 17 ) );?>" class="our-news-btn"> Check our News!</a>
+</section>
+
+
+
 <section class="best-instagram-feed">
     <h2 class="instagram-section-title">
 
@@ -308,17 +357,6 @@ Follow Us on Instagram #bestforgr
                   </div>
 
 
-					<?php
-					while ( have_posts() ) {
-						the_post();
-						get_template_part( 'loop-templates/content', 'page' );
-
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) {
-							comments_template();
-						}
-					}
-					?>
 
 
 		

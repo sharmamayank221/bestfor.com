@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik&display=swap" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
@@ -29,6 +29,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
+	<div class="site-topbar">
+		<div class="site-topbar-inner">
+		  <div class="site-topbar-inner-left"></div>
+		  <div class="site-topbar-inner-right">
+		    <div class="topbar-text">
+			<a href="tel:+30 2310279517"><i class="fa fa-phone"></i>+30 2310279517</a>
+			<a href="mailto:info@bestfor.com"><i class="fa fa-envelope"></i>info@bestfor.com</a>
+			</div>
+			<div class="header-social-icons">
+			<a href="https://www.facebook.com/BestForGr/" class="social-icons-footer"><i class="fa fa-facebook-f"></i></a>	
+			<a href="https://www.instagram.com/bestforgr/" class="social-icons-footer"><i class="fa fa-instagram"></i></a>	
+			<a href="https://twitter.com/bestforcompany" class="social-icons-footer"><i class="fa fa-twitter"></i></a>	
+			<a href="https://www.youtube.com/channel/UC2WgQ3PfRKVsx1fKP1LWxhQ" class="social-icons-footer"><i class="fa fa-youtube-play"></i></a>	
+			<a href="https://gr.pinterest.com/bestforgr/" class="social-icons-footer"><i class="fa fa-pinterest-p"></i></a>	
+			<a href="https://www.tiktok.com/@bestforgr?" class="social-icons-footer"><i class="fa fa-tumblr"></i></a>
+			</div>
+		  </div>
+		</div>
+	</div>
 	<div id="wrapper-navbar">
 	<div class="header-logo">
 			 <a href="/"><img src="<?php echo get_template_directory_uri() . '/src/images/logo.png' ?>" alt=""></a>
@@ -52,7 +71,7 @@ $container = get_theme_mod( 'understrap_container_type' );
          <div class="header-logo">
 			 <a href="/"><img src="<?php echo get_template_directory_uri() . '/src/images/logo.png' ?>" alt=""></a>
 		 </div>
-			
+		 <div class="header-search"><?php echo do_shortcode('[ivory-search id="192" title="Default Search Form"]'); ?></div>
 
 		
 	

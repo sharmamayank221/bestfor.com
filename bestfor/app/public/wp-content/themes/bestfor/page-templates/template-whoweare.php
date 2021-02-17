@@ -26,7 +26,40 @@ if ( is_front_page() ) {
 </section>
 
 <section class="rev-slider-wrapper">
+<div class="slider-who-we-are">
+<?php
+echo do_shortcode('[smartslider3 slider="5"]');
+?>
+</div>
+<div class="infoandindustries">
 
+
+		<div class="info-company-org">
+			<div class="company-info-left">
+				<a href="">Our company</a>
+				<p>The Company is specialized in the creation and retail of useful innovative products.
+				</p>
+			</div>
+			
+			<div class="company-info-right">
+				<img src="<?php echo get_template_directory_uri() . '/src/images/aboutus0.jpg'?>" alt="" >
+			</div>
+
+			</div>
+			<div class="our-industries">
+				<div class="our-industries-left">
+				<a href="">Industries</a>
+				<p>Understanding business process requires understanding the industry. We do both.
+			</p>
+			</div>
+			<div class="company-info-right">
+				<img src="<?php echo get_template_directory_uri() . '/src/images/aboutus1.jpg'?>" alt="" >
+			</div>
+				</div>
+	
+	</div>
+</div>
+   
 </section>
 
 <section class="shopping-experience">

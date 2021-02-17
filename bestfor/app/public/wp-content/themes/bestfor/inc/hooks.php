@@ -49,3 +49,8 @@ if ( ! function_exists( 'understrap_add_site_info' ) ) {
 		echo apply_filters( 'understrap_site_info_content', $site_info ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
+function mytheme_custom_excerpt_length( $length ) {
+    return 21;
+}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
+

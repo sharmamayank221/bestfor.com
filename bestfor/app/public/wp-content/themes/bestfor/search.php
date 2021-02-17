@@ -40,7 +40,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</h1>
 
 					</header><!-- .page-header -->
-
+					<div class="all-search-article">
+						
 					<?php /* Start the Loop */ ?>
 					<?php
 					while ( have_posts() ) :
@@ -54,7 +55,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						get_template_part( 'loop-templates/content', 'search' );
 					endwhile;
 					?>
-
+                 </div>
 				<?php else : ?>
 
 					<?php get_template_part( 'loop-templates/content', 'none' ); ?>

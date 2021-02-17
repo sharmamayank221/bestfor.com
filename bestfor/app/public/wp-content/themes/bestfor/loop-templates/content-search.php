@@ -9,13 +9,13 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<article class="search-article"<?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">
 
 		<?php
 		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark" class="search-individual-link">', esc_url( get_permalink() ) ),
 			'</a></h2>'
 		);
 		?>
@@ -32,11 +32,11 @@ defined( 'ABSPATH' ) || exit;
 
 	</header><!-- .entry-header -->
 
-	<div class="entry-summary">
+	<!-- <div class="entry-summary">
 
 		<?php the_excerpt(); ?>
 
-	</div><!-- .entry-summary -->
+	</div>.entry-summary -->
 
 	<footer class="entry-footer">
 
